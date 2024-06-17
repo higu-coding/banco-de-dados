@@ -1,1 +1,4 @@
 CREATE TABLE Alunos (id INTEGER, nome TEXT, email VARCHAR(100) );
+
+ALTER TABLE Alunos
+ADD COLUMN idade INTEGER
