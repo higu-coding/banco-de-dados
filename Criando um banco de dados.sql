@@ -1,0 +1,1 @@
+CREATE TABLE Alunos (id INTEGER, nome TEXT, email VARCHAR(100) );
