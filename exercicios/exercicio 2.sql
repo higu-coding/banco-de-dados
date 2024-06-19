@@ -26,4 +26,7 @@ CREATE TABLE vendas (
 ALTER TABLE carros
 RENAME COLUMN cor TO cor_exterior;
 
-DROP TABLE clientes;
+ALTER TABLE clientes
+RENAME COLUMN id TO id_cliente;
+
+DROP TABLE vendas;
